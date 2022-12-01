@@ -49,7 +49,6 @@ const cssFiles = [
 
     './src/css/main.css',
     './src/css/auth.css',
-    './src/css/media.css',
 ]
 
 const jsFiles = [

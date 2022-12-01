@@ -1,0 +1,37 @@
+@import "../base/variables";
+
+.dropdown{
+  position: relative;
+  &__wrap{
+    width: 170px;
+    background: $default-white;
+    z-index: 2;
+    position: absolute;
+    top: 48px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    border: 1px solid $border-color;
+    padding: 12px 10px;
+  }
+  &__item{
+    cursor: pointer;
+    padding: 12px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    white-space: nowrap;
+    &:not(:last-child){
+      border-bottom: 1px solid $border-color;
+    }
+  }
+  &--right{
+    .dropdown__wrap{
+      right: 0
+    }
+  }
+  &--left{
+    .dropdown__wrap{
+      left: 0
+    }
+  }
+}

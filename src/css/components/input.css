@@ -1,0 +1,33 @@
+.input__label {
+  font-size: 14px;
+  line-height: 1.42;
+  margin-bottom: 6px;
+  display: block;
+  font-weight: 500; }
+
+.input__field {
+  width: 100%;
+  font-family: 'Gilroy', sans-serif;
+  padding: 12px 14px;
+  border: 1px solid #E9E9E9;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 23px;
+  height: 47px; }
+  .input__field::placeholder {
+    color: #A9A9A9; }
+  .input__field:focus {
+    border-color: #DAEDF7;
+    box-shadow: 0 0 4px rgba(218, 237, 247, 0.4); }
+
+.input--error .input__field {
+  border-color: #F04438; }
+
+.input-message {
+  color: #F04438;
+  margin-top: 4px;
+  font-size: 14px;
+  line-height: 1.4; }
+
+/*# sourceMappingURL=input.css.map */

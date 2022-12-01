@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+input:focus {
+  outline: none; }
+
+body {
+  margin: 0;
+  font-family: 'Gilroy', sans-serif;
+  font-size: 14px;
+  line-height: 1.42;
+  color: #1A1C1E;
+  overflow-x: hidden;
+  font-weight: 400; }
+
+.container {
+  margin: 0 auto; }
+
+.page {
+  display: flex; }
+
+/*# sourceMappingURL=base.css.map */

@@ -1,0 +1,75 @@
+@import "../base/variables";
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 34px;
+  &__item{
+    display: flex;
+    min-height: 166px;
+    justify-content: space-between;
+    border-radius: 8px;
+    border: 1px solid $border-color;
+    padding: 24px 20px 10px;
+    &-title{
+      font-size: 16px;
+      line-height: 1.25;
+      font-weight: 500;
+      margin-bottom: 24px;
+    }
+    &-value{
+      font-size: 32px;
+      line-height: 1.25;
+      font-weight: 600;
+      margin-bottom: 16px;
+      span{
+        font-size: 14px;
+        margin-left: 4px;
+      }
+    }
+    &-progress{
+      display: flex;
+      &--up{
+        .grid__item-arrow{
+          path{
+            stroke: $light-green;
+          }
+        }
+        .grid__item-number{
+          color: $green;
+        }
+      }
+      &--down{
+        .grid__item-arrow{
+          transform: rotate(180deg);
+          path{
+            stroke: $red;
+          }
+        }
+        .grid__item-number{
+          color: $red-dark;
+        }
+      }
+    }
+    &-arrow{
+      height: 18px;
+    }
+    &-number{
+      font-weight: 500;
+      margin: 0 4px 0 2px;
+      line-height: 17px;
+    }
+    &-text{
+      font-weight: 500;
+      line-height: 17px;
+    }
+    &-chart{
+      width: 128px;
+      height: 64px;
+      margin-bottom: 14px;
+      margin-top: auto;
+    }
+
+
+  }
+}

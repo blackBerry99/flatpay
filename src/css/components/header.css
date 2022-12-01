@@ -1,0 +1,22 @@
+.header {
+  height: 72px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 40px;
+  border-bottom: 1px solid #E9E9E9; }
+  .header__icon {
+    border: 1px solid #E9E9E9;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    background: #FAFAFA;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase; }
+
+/*# sourceMappingURL=header.css.map */

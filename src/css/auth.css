@@ -1,0 +1,41 @@
+.auth {
+  position: relative; }
+  .auth__header {
+    height: 96px;
+    padding: 32px; }
+  .auth__logo-img {
+    width: 120px; }
+  .auth__bg {
+    width: 55.5vw;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url("../../src/images/auth-bg.png");
+    background-size: cover;
+    background-position: center; }
+  .auth__main {
+    width: 44.5vw;
+    padding: 0 9.7vw;
+    max-width: 640px;
+    min-height: calc(100vh - 96px - 96px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .auth__title {
+    margin-bottom: 12px; }
+  .auth__form {
+    margin-top: 12px; }
+  .auth__input {
+    margin: 20px 0; }
+  .auth__formfield {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px; }
+  .auth__controls {
+    margin-top: 24px;
+    display: grid;
+    grid-gap: 14px; }
+
+/*# sourceMappingURL=auth.css.map */

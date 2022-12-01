@@ -1,0 +1,18 @@
+@import "../base/variables";
+
+.sidebar{
+  padding: 16px;
+  box-sizing: border-box;
+  border-right: 1px solid $border-color;
+  width: 284px;
+  flex-shrink: 0;
+  height: 100vh;
+}
+.logo{
+  display: block;
+  padding: 8px;
+  margin-bottom: 10px;
+  &__img{
+    width: 137px;
+  }
+}

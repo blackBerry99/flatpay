@@ -1,0 +1,42 @@
+@import "../base/variables";
+
+.input {
+  &__label {
+    font-size: 14px;
+    line-height: 1.42;
+    margin-bottom: 6px;
+    display: block;
+    font-weight: 500;
+  }
+
+  &__field {
+    width: 100%;
+    font-family: 'Gilroy', sans-serif;
+    padding: 12px 14px;
+    border: 1px solid $border-color;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 23px;
+    height: 47px;
+    &::placeholder {
+      color: $placeholder-color;
+    }
+    &:focus{
+      border-color: $hover-color;
+      box-shadow: 0 0 4px rgba(218, 237, 247, 0.4);
+    }
+  }
+  &--error{
+    .input__field{
+      border-color: $red;
+    }
+  }
+  &-message{
+    color: $red;
+    margin-top: 4px;
+    font-size: 14px;
+    line-height: 1.4;
+
+  }
+}

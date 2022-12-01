@@ -32,7 +32,23 @@ function styles() {
 }
 const cssFiles = [
     './src/css/fonts.css',
+    './src/css/base/base.css',
+    './src/css/base/text.css',
+
+    './src/css/components/btn.css',
+    './src/css/components/checkbox.css',
+    './src/css/components/input.css',
+    './src/css/components/dropdown.css',
+
+    './src/css/components/grid.css',
+
+    './src/css/components/header.css',
+    './src/css/components/sidebar.css',
+    './src/css/components/footer.css',
+    './src/css/components/menu.css',
+
     './src/css/main.css',
+    './src/css/auth.css',
     './src/css/media.css',
 ]
 
@@ -59,7 +75,8 @@ function clean() {
 function watch() {
     browserSync.init({
         server: {
-            baseDir: "./"
+            baseDir: "./",
+            index: "index.html",
         }
     });
     gulp.watch('./src/scss/**/*scss', sassCompile)

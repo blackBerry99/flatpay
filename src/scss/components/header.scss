@@ -1,0 +1,28 @@
+@import "../base/variables";
+
+.header{
+  height: 72px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 40px;
+  border-bottom: 1px solid $border-color;
+  &__icon{
+    border: 1px solid $border-color;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    background: $light-grey;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+  }
+}
+
+
+
+

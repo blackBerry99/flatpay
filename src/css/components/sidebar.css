@@ -1,0 +1,16 @@
+.sidebar {
+  padding: 16px;
+  box-sizing: border-box;
+  border-right: 1px solid #E9E9E9;
+  width: 284px;
+  flex-shrink: 0;
+  height: 100vh; }
+
+.logo {
+  display: block;
+  padding: 8px;
+  margin-bottom: 10px; }
+  .logo__img {
+    width: 137px; }
+
+/*# sourceMappingURL=sidebar.css.map */

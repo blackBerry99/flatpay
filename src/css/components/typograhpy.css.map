@@ -1,0 +1,1 @@
+{"version":3,"file":"typograhpy.css","sources":["components/typograhpy.scss"],"sourcesContent":[".title{\n  font-size: 30px;\n  line-height: 1.27;\n}\n\n.text{\n\n}\n"],"names":[],"mappings":"AAAA,AAAA,MAAM,CAAA;EACJ,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI,GAClB"}
